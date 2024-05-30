@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajade Ecommerce</title>
+
+    <link rel="Website icon" type="png" href="image">
+    <link rel="stylesheet"  href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+        <style>
+     body{
+       position: relative;
+       margin: 0;
+       padding-bottom: 7em;    
+      
+        }
+
+
+     .head {
+            background-color:#8da088;
+            display: flex;
+            padding: 30px 0%;
+            text-align: center;
+            width: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            position: fixed;
+            justify-content: space-around;
+        }
+
+    .head p {
+            color:  rgb(237, 237, 224);
+            font-size: 30px;
+            padding-left: 100px;
+            font-weight: 700;
+        }
+        
+    .logo {
+        position: relative;
+        font-size: 50px;
+        color: rgb(237, 237, 224);
+        text-decoration: none;
+        font-weight: 700;
+        }
+       
+        
+       
+    .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8da088;
+            padding: 25px 0;
+        }
+
+    .nav a{
+        font-size: 30px;
+        color: rgb(237, 237, 224);
+        text-decoration: none;
+        font-weight: 700;
+        margin-left: 55px;
+        transition: 1s;
+    }
+    
+    .nav a:hover{
+        color:  rgb(255, 224, 171);
+        transform: translateY(5px) translateX(10px);
+    }
+
+    .homee{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        margin-bottom: -950px;
+    }
+
+    .shopp{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        padding: 0 10%;
+        transition: 1s;
+    }
+    .shopp{
+        margin-top: 120px;
+    }
+   
+    .Accountt{
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        
+        
+    }
+   
+
+      /*  sale Banner*/
+    .Sale {
+    box-sizing: border-box;
+    width: 1450px;
+    height: 200px;
+    padding: auto;
+    margin-left: 190px;
+    margin-top: -450px;
+    background-color: rgb(237, 237, 224);
+    border-radius: 20px;
+    }
+      
+    .salee{
+    font-size: 60px;
+    color:#8da088;
+    margin-left: 350px;
+        
+       }
+    .saleee{
+     margin-left: 326px;
+     color: #8f8989e3;
+     margin-top: 30px;
+    margin-bottom: -30px;  
+       }
+
+     .saleee{
+      font-size: 30px;
+     color: #8f8989e3;
+     text-decoration: none;
+     margin-top: 40px;
+     }
+
+     .saleee:hover{
+      color: rgb(248, 75, 75);
+     }
+
+     .saleeeee{
+     font-size: 30px;
+     margin-left: 550px;
+    color: #8f8989e3;
+     margin-top: -70px;
+     display: block;
+    }
+    
+
+    /* 1st image */
+    .image{
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+    }
+    .image:hover{
+        transform: translateY(-25px) ;
+    }
+    .img {
+        width: 150px;
+         height: auto;
+        display: flex;
+         margin-top: 90px;
+         margin-bottom: -200px;
+         margin-left: 20px;
+        }
+
+    .txt {
+        font-size: 27px;
+         color:#8da088;
+         margin-left: 7px;
+       }
+     
+    .txt1{
+        margin-left: 30px;
+        margin-top: 250px;
+       }
+    .price{
+        color: #8f8989e3;
+        font-size: 25px;
+        margin-left: 35px;
+        margin-top: -100px;
+       }
+
+    .buy {
+      margin-bottom: 30px;
+      font-size: 30px;
+      width: 40px;
+      height: 40px;
+      border: 2px solid#8da088;
+      text-decoration: none;
+      color: #8da088;
+      transition: 1s;
+      
+    }
+    .buy:hover{
+        color: rgb(248, 75, 75);
+    }
+    .price:hover{
+        color: rgb(16, 6, 6);
+        transform:  translateX(20px);
+    }
+
+    /* 2nd image */
+        .image1 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 50px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image1:hover{
+        transform: translateY(-25px) ;
+    }
+
+    .img1{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt000 {
+        font-size: 30px;
+         color:#8da088;
+         margin-left: 10px;
+       }
+       
+    .txt001{
+        margin-left: 30px;
+        margin-top: 247px;  
+       }
+
+       /* 3rd image */
+    .image2 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 50px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image2:hover{
+        transform: translateY(-25px) ;
+    }
+    .img2{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+     .txt002 {
+        font-size: 23px;
+         color:#8da088;
+         margin-left: 7px;
+       }
+       
+    .txt003{
+        margin-left: 30px;
+        margin-top: 250px;
+        
+       }
+
+       /* 4th image */
+    .image3 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 50px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image3:hover{
+        transform: translateY(-25px) ;
+    }
+
+     .img3{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt004 {
+        font-size: 30px;
+         color:#8da088;
+         margin-left: 50px;
+         margin-top: 20px;
+       }
+       
+    .txt005{
+        margin-left: 30px;
+        margin-top: 243px;
+        
+       }
+        /* 5th image */
+    .image4 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 50px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+     .image4:hover{
+        transform: translateY(-25px) ;
+    }
+    .img4{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt006 {
+        font-size: 30px;
+         color:#8da088;
+         margin-left: 30px;
+        
+       }
+       
+    .txt007{
+        margin-left: 30px;
+        margin-top: 250px;
+        
+       }
+        
+        /* 6th image */
+    .image5 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 50px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image5:hover{
+        transform: translateY(-25px) ;
+    }
+    .img5{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt008 {
+        font-size: 25px;
+         color:#8da088;
+         margin-left: 10px;
+       }
+       
+    .txt009{
+        margin-left: 30px;
+        margin-top: 255px;
+        
+       }
+
+       /* 7th image */
+    .image6 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 190px;
+         margin-top: -260px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image6:hover{
+        transform: translateY(-25px) ;
+    }
+    .img6{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt010 {
+        font-size: 25px;
+         color:#8da088;
+         margin-left: 17px;
+         margin-top: 35px;
+       }
+       
+    .txt011{
+        margin-left: 30px;
+        margin-top: 255px;
+        
+       }
+
+        /* 8th image */
+    .image7 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 440px;
+         margin-top: -389px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image7:hover{
+        transform: translateY(-25px) ;
+    }
+     .img7{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt012 {
+            font-size: 25px;
+         color:#8da088;
+         margin-left: 40px;
+         margin-top: -10px;
+         
+       }
+       
+    .txt013{
+        margin-left: 30px;
+        margin-top: 252px;
+        
+       }
+
+        /* 9th image */
+     .image8 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 690px;
+         margin-top: -389px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image8:hover{
+        transform: translateY(-25px) ;
+    }
+
+    .img8{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt014 {
+        font-size: 25px;
+         color:#8da088;
+         margin-left: 10px;
+         margin-top: 30px;
+       }
+       
+    .txt015{
+        margin-left: 30px;
+        margin-top: 248px;
+       }
+
+        /* 10th image */
+    .image9 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 940px;
+         margin-top: -389px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image9:hover{
+        transform: translateY(-25px) ;
+    }
+     .img9{
+            width: 170px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 10px;
+        }
+
+    .txt016 {
+        font-size: 25px;
+         color:#8da088;
+         margin-left: 32px;
+         margin-top: 33px;
+       }
+       
+    .txt017{
+        margin-left: 30px;
+        margin-top: 245px;
+       }
+
+        /* 11th image */
+    .image10 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 1190px;
+         margin-top: -389px;
+         background-color: rgb(237, 237, 224);
+         transition: 1s;
+        }
+    .image10:hover{
+        transform: translateY(-25px) ;
+    }
+    .img10{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt018 {
+        font-size: 20px;
+         color:#8da088;
+         margin-left: 10px;
+       }
+       
+    .txt019{
+        margin-left: 30px;
+        margin-top: 251px;
+       }
+
+       /* 12th image */
+    .image11 {
+         border: 4px solid #8da088;
+         box-sizing: border-box;
+         width: 200px;
+         height: 390px;
+         padding: auto;
+         margin-left: 1442px;
+         margin-top: -389px;
+         background-color: rgb(237, 237, 224);
+        transition: 1s;
+        }
+    .image11:hover{
+        transform: translateY(-25px) ;
+    }
+       .img11{
+            width: 150px;
+            height: auto;
+            display: flex;
+            margin-top: 90px;
+            margin-bottom: -200px;
+           margin-left: 20px;
+        }
+
+    .txt020 {
+        font-size: 22px;
+         color:#8da088;
+         margin-left: 10px;
+        
+       }
+       
+    .txt021{
+        margin-left: 30px;
+        margin-top: 220px;
+       }
+      
+       /* account setting */
+    .Acc {
+         box-sizing: border-box;
+         width: 700px;
+         height: 600px;
+         padding: auto;
+         margin-left: 600px;
+         margin-top: -180px;
+        margin-bottom: -180px;
+         background-color: rgb(237, 237, 224);
+        border-radius: 10px;
+        transition: 1s;
+        }  
+    .Acc:hover{
+        transform: translateY(10px)  translateX(20px);
+    }
+
+    .login {
+            font-size: 50px;
+            color:#8da088;
+            padding-top: 100px;
+            margin-left: 290px;
+            transition: 1s;
+           
+        }
+    .login:hover{
+       
+        transform: translateY(-20px) ;
+    }
+
+    .email{
+        font-size:30px;
+         color:#8da088;
+         margin-top: 50px;
+        margin-left: 190px;
+       display: flex;
+       }    
+       
+    .Eplaceholder{
+        font-size: 20px;
+        margin-left: 190px;
+        border: 2px solid #8da088;
+       margin-top: 10px;
+       }
+
+    .Pass{
+        font-size:30px;
+         color:#8da088;
+         margin-top: 20px;
+        margin-left: 190px;
+       display: flex;
+       
+       }    
+       
+     .Pplaceholder{
+        font-size: 20px;
+        margin-left: 190px;
+        border: 2px solid #8da088;
+       margin-top: 10px;
+       }
+
+    .Sign{
+     margin-left: 220px;
+    margin-top: 30px;
+   
+       
+    }
+    .sign{
+        font-size: 20px;
+        border: 10px solid #8da088;
+        color:   rgb(237, 237, 224);
+        border-radius: 8px;
+        background-color:   #8da088;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    .sign:hover{
+        color: #050404;
+       }
+
+    .Sign1{
+     margin-left: 320px;
+    margin-top: -24px;
+   
+       
+    }
+    .sign1{
+        font-size: 20px;
+        border: 10px solid #8da088;
+        color:  rgb(237, 237, 224);
+        border-radius: 8px;
+        background-color:   #8da088;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    .sign1:hover{
+        color: #050404;
+       }
+    /* Acc Icons */
+    .icon{ 
+        font-size: 16px;
+        margin-left: 255px;
+        color: #8da088;
+        transition: 1s;
+        /* or */
+    }
+    .twt{
+       font-size: 30px;
+       color: #8da088;
+        text-decoration: none;
+        margin-left: 20px;
+        transition: 1s;
+    }
+    .twt:hover{
+        color: #6789fb;
+        transform: translateY(-10px)  translateX(20px);
+    }
+    .fb{
+        font-size: 30px;
+       color: #8da088;
+        text-decoration: none;
+        margin-left: 240px;
+        transition: 1s;
+    }
+    .fb:hover{
+        color: #6789fb;
+        transform: translateX(-20px);
+    }
+    .G{
+        font-size: 30px;
+       color: #8da088;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .G:hover{
+        color: #e74467;
+        transform: translateY(10px)  translateX(20px);
+    }
+    
+
+
+       /* pinakang baba  */
+    .footer {
+       position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+       width: auto;
+        padding: 50px 0;
+        background-color: #8da088;
+        display: flexbox;
+        justify-content: space-around;
+        z-index: 100;
+      
+        }  
+
+    .footernav{
+      margin-left: 1100px;
+     margin-bottom: -120px;
+    margin-top: -30px;
+      
+      
+    }
+    .footernav a{
+       
+        font-size: 25px;
+        color: rgb(237, 237, 224);
+        text-decoration: none;
+        font-weight: 700;
+        margin-left: 55px;
+        transition: 1s;
+        text-align: center;
+        display: flex;
+    }
+    
+    .footernav a:hover{
+        color:  rgb(0, 0, 0);
+        transform:  translateX(20px);
+    }
+
+    .info p{
+        font-size: 25px;
+      text-align: center;
+        color: rgb(237, 237, 224);
+        margin-top: 10px;
+    }
+    .last{
+        text-align: center;
+       
+        color: rgb(237, 237, 224);
+    }
+
+
+
+
+    </style>
+
+<body>
+    <header class="head" >
+        <a href="#" class="logo">Kids Korner </a>
+        <p>Fun and Functional Finds for Little Ones</p>
+        <div class="nav" >
+        <a href="#Home">Home</a>
+        <a href="#Account">Account</a>
+        <a href="#Shop">Shop</a>
+        <a href="#Contact">Contact</a>
+        
+    </div>
+</header>
+    <section id="Home" class="homee">
+        <div class="Sale">
+            <div class="salee"><b>**30% OFF EVERYTHING** </b></div>
+            <div class = "saleee">
+            <a href="#Shop" id="Shop" class="saleee"><b>Shop now!</b></a> </div>
+            <div class="saleeeee"><b>Hurry! Limited time only</b></div>    
+        </div>
+
+
+    </section>
+       
+
+    <section id="Shop" class="shopp">
+
+            <!-- 1st image-->
+            <div class="image">
+                <div class="im"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy1.png" class="img"> </div>
+                <div class="txt"><b>Fish Ring Toss</b></div>
+                
+                <div class = "txt1">
+                <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+                <div class="price"><b>₱120.50</b></div>    
+            </div>
+
+            <!-- 2nd -->
+            <div class="image1">
+                <div class="im1"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy2.png" class="img1"> </div>
+                <div class="txt000"><b>Chess Board</b></div>
+                <div class = "txt001">
+                <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+                <div class="price"><b>₱1,149.00</b></div>    
+            </div>
+
+            <!-- 3rd -->
+            <div class="image2">
+                <div class="im2"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy3.png" class="img2"> </div>
+                <div class="txt002"><b>Snake and Ladder</b></div>
+                <div class = "txt003">
+                <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+                <div class="price"><b>₱249.00</b></div>    
+            </div>
+
+            <!-- 4th -->
+            <div class="image3">
+                <div class="im3"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy4.png" class="img3"> </div>
+                <div class="txt004"><b>Scabble</b></div>
+                <div class = "txt005">
+                <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+                <div class="price"><b>₱549.00</b></div>    
+            </div>
+
+            <!-- 5th -->
+            <div class="image4">
+                <div class="im4"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy5.png" class="img4"> </div>
+                <div class="txt006"><b>Monopoly</b></div>
+                <div class = "txt007">
+                <a href="#Account" class="buy"><b>Buy now</b></a> </div>  
+                <div class="price"><b>₱599.00</b></div>                
+            </div>
+
+             <!-- 6th image-->
+             <div class="image5">
+                <div class="im5"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy6.png" class="img5"> </div>
+                <div class="txt008"><b>T-rex Dinosours</b></div>
+                <div class = "txt009">
+                <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+                <div class="price"><b>₱399.00</b></div>    
+            </div>
+
+            
+           
+    </section>
+    <section >
+        <!-- 7th -->
+        <div class="image6">
+           <div class="im6"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy7.png" class="img6"> </div>
+           <div class="txt010"><b>Jumping Rope</b></div>
+           <div class = "txt011">
+           <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+           <div class="price"><b>₱299.00</b></div>    
+       </div>
+    
+       <!-- 8th -->
+       <div class="image7">
+        <div class="im8"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy8.png" class="img7"> </div>
+        <div class="txt012"><b>Train Set</b></div>
+        <div class = "txt013">
+        <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+        <div class="price"><b>₱399.00</b></div>    
+
+    </div>
+
+    <!--  9th -->
+    <div class="image8">
+        <div class="im8"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy9.png" class="img8"> </div>
+        <div class="txt014"><b>Airplane A380</b></div>
+        <div class = "txt015">
+        <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+        <div class="price"><b>₱199.00</b></div>    
+    </div>
+
+    <!--  10th -->
+    <div class="image9">
+        <div class="im9"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy10.png" class="img9"> </div>
+        <div class="txt016"><b>Jet Fighter</b></div>
+        <div class = "txt017">
+        <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+        <div class="price"><b>₱299.00</b></div>    
+    </div>
+
+     <!--  11th -->
+     <div class="image10">
+        <div class="im10"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy11.png" class="img10"> </div>
+        <div class="txt018"><b>1:1400 Cruise Ship</b></div>
+        <div class = "txt019">
+        <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+        <div class="price"><b>₱1,499.00</b></div>    
+    </div>
+
+    <!--  12th -->
+    <div class="image11">
+        <div class="im11"> <img src="c:\Users\7Q0\OneDrive\Documents\HTML Language\toy12.png" class="img11"> </div>
+        <div class="txt020"><b>Combat Force 100pcs</b></div>
+        <div class = "txt021">
+        <a href="#Account" class="buy"><b>Buy now</b></a> </div>
+        <div class="price"><b>₱199.00</b></div>    
+    </div>
+
+    </section>
+
+    <section id="Account" class="Accountt">
+       
+        <div class="Acc">
+            <div class="login"><b>Login</b></div>
+            <div class="email"><b>Email: </b></div>
+            <input type="text" class="Eplaceholder" name="User" placeholder="Enter your Email Address"> 
+            <div class="Pass"><b>Password:</b></div>   
+            <input type="text" class="Pplaceholder" name="User" placeholder="Enter your Email Address">
+            <div class="Sign"><a href="#Home"  class="sign"><b>LOGIN</b></a> </div>
+            <div class="Sign1"><a href="#Account"  class="sign1"><b>SIGN UP</b></a> </div>
+
+            <div class="icon"> <p>Or Sign Up Using</p></div>
+                <a href="#" class="fb"> <i class='bx bxl-facebook-circle'></i> </a>
+                <a href="#" class="twt"> <i class='bx bxl-twitter'></i> </a>
+                <a href="#" class="G">  <i class='bx bxl-google'></i> </a>
+          
+        </div>
+        
+
+    </section>
+  
+
+
+    <footer id="Contact" class="footer">
+        <div class="footernav">
+            <a href="#Home">Privacy Policy</a>
+            <a href="#Account">About</a>
+            <a href="#">Term of Service</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="info">
+            <P>Bajadecastro@gmail.com</P>
+            <P>09201234567</P>
+
+        </div>
+        <div class="last">
+        <p>&copy; 2024 Kids Korner_Bajade. All Rights Reserved.</p>
+        </div>  
+    </footer>
+</body>
+</html>
